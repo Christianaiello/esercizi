@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{margin: 0;
+}
+.uno{
+background-color: black;
+width: 50%;
+height: 350px;
+overflow: hidden;
+
+}
+.li1{margin-left: 200px;
+}
+.li2{margin-left: 200px;
+}
+ li{display: inline-block;
+    
+}
+li a{ text-decoration: none;}
+.tre{color: white;
+    text-align: center;
+}
+.p1{color:white;
+    text-align: center;
+}
+.p2{color: white;
+text-align: center;
+}
+.immagine1{width: 40%;
+margin-left: 200px;
+}
+
+.due{
+background-color: white;
+width: 50%;
+height: 350px;
+position: relative;
+top: -250px;
+left: 50%;
+}
+.p3{text-align: center;
+}
+h2{ text-align: center;
+margin-top: -40px;}
+.immagine2{ width: 25%;
+    margin-left: 240px;}
+
+
+
+
+
+
+</style>
+</head>
+<body>
+<div class="uno"><img class="immagine1" src="https://th.bing.com/th/id/OIP.dienek7QqO6WPm-0O5NPDgHaEK?w=285&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" >
+    <h3 class="tre">WWDC23</h3>
+    <p class="p1">Apple worldwide Developers Conference.</p>
+    <p class="p2">Join us online June 5-9.</p>
+    <ul>
+        <li class="li1"> <a href="#">learn more></a></li>
+    </ul>
+</div>
+<div class="due">
+    <h2>iPad</h2>
+    <p class="p3">Lovable.Drawable.Magical</p>
+<ul>
+    <li class="li2"><a href="#">learn more></a></li>
+<li><a href="#">buy></a></li>
+</ul>
+<img class="immagine2" src="https://th.bing.com/th/id/OIP.yDZ2DvneOVsMdx4ZOxRUhAHaH0?w=181&h=191&c=7&r=0&o=5&dpr=1.5&pid=1.7">
+</div>
+
+
+
+
+
+</body>
+</html>
